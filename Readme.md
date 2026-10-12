@@ -148,8 +148,3 @@ Dashboard (index.php)
 ```
 
 ---
-
-### 1. Clone repo
-```bash
-git clone https://github.com/USERNAME/contact-app.git
-cd contact-app

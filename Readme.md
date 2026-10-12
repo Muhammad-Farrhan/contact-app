@@ -24,15 +24,46 @@ Aplikasi web sederhana untuk mencatat **Contact**, **No Telp**, dan **Group** de
 | Server lokal | XAMPP |
 
 ## Struktur Folder
+
+```text
 contact-app/
-├── index.php # Dashboard
-├── config/ # Koneksi database
-├── includes/ # Header, footer, helpers
-├── contacts/ # Modul contact
-├── groups/ # Modul group
-├── assignments/ # Modul assign
-├── reports/ # Modul laporan
-└── assets/css/ # Custom CSS
+│
+├── index.php                 # Dashboard utama
+│
+├── config/
+│   └── database.php          # Koneksi PDO
+│
+├── includes/
+│   ├── header.php            # <head>, navbar, CSS
+│   ├── footer.php            # Penutup HTML
+│   └── helpers.php           # Fungsi bantu (redirect, flash)
+│
+├── contacts/
+│   ├── index.php             # List contact + search
+│   ├── create.php            # Form tambah contact
+│   ├── edit.php              # Form edit contact
+│   ├── save.php              # Proses simpan
+│   └── delete.php            # Proses hapus
+│
+├── groups/
+│   ├── index.php             # List group
+│   ├── create.php            # Form tambah group
+│   ├── edit.php              # Form edit group
+│   ├── save.php              # Proses simpan
+│   └── delete.php            # Proses hapus
+│
+├── assignments/
+│   ├── index.php             # Matrix contact × group
+│   ├── edit.php              # Assign 1 contact
+│   └── save.php              # Proses simpan assign
+│
+├── reports/
+│   └── index.php             # Laporan Query A–D
+│
+└── assets/
+    └── css/
+        └── style.css         # Custom CSS
+```
 
 
 ## Cara Install

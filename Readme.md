@@ -14,7 +14,7 @@ Aplikasi web sederhana untuk mencatat **Contact**, **No Telp**, dan **Group** de
   - C. Contact yang belum masuk group
   - D. Group yang belum punya contact
 
-## Teknologi
+## Tools yang digunakan
 
 | Layer | Stack |
 |---|---|
